@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#101317">
+  <title>星巢无限 STARNEST ∞ · 无限席位，等你落座</title>
+  <meta name="description" content="星巢是一间没有围墙的线上概念公司：8 个部门、31 个岗位、无限工位。先落座，再发光。">
+  <meta property="og:title" content="星巢无限 STARNEST ∞ · 无限席位，等你落座">
+  <meta property="og:description" content="8 个部门、31 个岗位、无限工位。给每一位正在寻找方向的年轻人一个可以先坐下来的地方。">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/" aria-label="星巢无限首页">
+        <span class="brand-mark" aria-hidden="true">∞</span>
+        <span class="brand-text">
+          <strong>星巢</strong>
+          <small>STARNEST ∞</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="主导航">
+        <a href="#/" data-nav="home">首页</a>
+        <a href="#/careers" data-nav="careers">开放岗位</a>
+        <a href="#/company" data-nav="company">公司手册</a>
+        <a href="#/security" data-nav="security">巢盾安全</a>
+        <a class="nav-mobile-only nav-mobile-workspace" href="#/workspace">我的工位</a>
+        <a class="nav-mobile-only nav-mobile-join" href="#/join">立即入职 <span aria-hidden="true">↗</span></a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-workspace" href="#/workspace" id="workspace-link">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>我的工位</span>
+        </a>
+        <a class="btn btn-primary btn-sm header-cta" href="#/join">
+          立即入职
+          <span class="btn-arrow" aria-hidden="true">↗</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="app">
+      <div class="boot" role="status" aria-live="polite">
+        <span class="boot-mark" aria-hidden="true">∞</span>
+        <span class="boot-copy">正在打开星巢…</span>
+        <span class="boot-hint">STARNEST / CONNECTING</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-wordmark">星巢<span>∞</span></div>
+          <p>无限席位，等你落座。<br>一间把“入口”做宽的线上概念公司。</p>
+          <div class="footer-badge">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>概念演示 · 非真实雇佣</span>
+          </div>
+        </div>
+
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h3>探索</h3>
+            <a href="#/">首页</a>
+            <a href="#/careers">开放岗位</a>
+            <a href="#/company">公司手册</a>
+            <a href="#/security">巢盾安全</a>
+          </div>
+          <div class="footer-col">
+            <h3>开始</h3>
+            <a href="#/join">线上入职</a>
+            <a href="#/workspace">我的工位</a>
+            <a href="#/careers">岗位罗盘</a>
+            <a href="#/security">安全演练</a>
+          </div>
+          <div class="footer-col">
+            <h3>边界</h3>
+            <span>不收费</span>
+            <span>不收集敏感信息</span>
+            <span>不构成劳动关系</span>
+            <span>数据仅存本地</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 星巢无限 STARNEST ∞ · 虚构概念公司</p>
+        <p class="footer-disclaimer">本站为交互演示，所有人物、岗位与数据均为虚构设定。不构成真实招聘、劳动关系或薪酬承诺。</p>
+        <a href="#/security" class="footer-security">
+          <span class="status-dot" aria-hidden="true"></span>
+          安全中心
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog class="site-dialog" id="site-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" type="button" data-action="close-dialog" aria-label="关闭对话框">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <div id="dialog-content"></div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
