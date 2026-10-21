@@ -73,6 +73,8 @@ curl.exe -I https://useful-discount-breaks-cornwall.trycloudflare.com/
 
 ## 部署到 GitHub Pages
 
+> 注意：GitHub 头像菜单里的 **Settings → Pages** 是账号级的 **Verified domains**，不是仓库发布设置。必须进入**仓库自己的 Settings → Pages**，路径是 `https://github.com/用户名/仓库名/settings/pages`。
+
 GitHub Pages 适合这个项目：它是纯静态站点，不需要构建、不需要数据库。免费账号需要把仓库设为 **Public**。
 
 ### 方式 A：网页上传（不装 Git）
