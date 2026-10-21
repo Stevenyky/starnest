@@ -1,20 +1,37 @@
 # 公网发布记录
 
-## 当前可用地址
+## 当前正式地址
 
-手机热点下已建立可用的 Cloudflare Quick Tunnel：
+GitHub Pages 已发布，地址固定：
+
+```
+https://stevenyky.github.io/starnest/
+```
+
+源码仓库：
+
+```
+https://github.com/Stevenyky/starnest
+```
+
+该地址由 GitHub 托管，不依赖本机开机，也不会因为关闭终端而失效。已验证首页、31 个岗位、公司手册、巢盾安全、入职第一步、空工位和 390px 移动端布局。
+
+## 临时备用地址
+
+手机热点下还曾建立 Cloudflare Quick Tunnel：
 
 ```
 https://useful-discount-breaks-cornwall.trycloudflare.com/
 ```
 
-这是 **临时公网地址**，指向本机的 `http://127.0.0.1:8765/`。已实际验证：首页、开放岗位（31 个）、公司手册、巢盾安全、入职页和空工位都能从公网打开。
+这是 **临时地址**，指向本机的 `http://127.0.0.1:8765/`。本机进程关闭后即失效，仅作为备用演示，不是正式发布地址。
 
 同一热点下也可用局域网地址：
 
 ```
 http://192.168.43.19:8766/
 ```
+
 
 `trycloudflare.com` 地址在隧道进程重启后会变化；电脑休眠、断网或关闭终端都会失效。当前热点网络比校园网稳定，但仍没有 uptime 保证。
 

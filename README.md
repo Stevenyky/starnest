@@ -8,6 +8,10 @@
 
 ![星巢首页](screens/home-desktop-final.png)
 
+**在线地址（GitHub Pages）：** https://stevenyky.github.io/starnest/
+
+**源码仓库：** https://github.com/Stevenyky/starnest
+
 ---
 
 ## 快速开始
